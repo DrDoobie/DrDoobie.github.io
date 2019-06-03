@@ -1,5 +1,7 @@
 * {
     background-color: #292929;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px black;
 }
 
 header {
@@ -8,4 +10,31 @@ header {
 
 body {
     font-size: 24px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #eae6e6;
+}
+
+.nav-bar {
+    width: 100%;
+    overflow: auto;
+}
+
+.nav-bar a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+}
+
+.nav-bar a:hover {
+    background-color: #eae6e6;
+    color: #0b0000;
+}
+
+.active {
+    background-color: blue;
 }
